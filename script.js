@@ -46,7 +46,7 @@ function editTask(id) {
   const inputField = document.getElementById("tf-input");
 
   inputField.value = currentText;
-  inputField.placeholder = "Editing task..."; // Set placeholder when editing
+  inputField.placeholder = "Editing task...";
 
   const addButton = document.querySelector(".button");
   addButton.textContent = "Save Task";
@@ -66,8 +66,8 @@ function saveEditedTask(id) {
 
   taskElement.firstChild.textContent = newText;
 
-  inputField.value = ""; // Clear the input field
-  inputField.placeholder = "New Edited task"; // Set placeholder after saving
+  inputField.value = ""; 
+  inputField.placeholder = "New Edited task";
 
   const addButton = document.querySelector(".button");
   addButton.textContent = "Add Task";
