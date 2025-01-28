@@ -52,6 +52,7 @@ function editTask(id) {
   addButton.textContent = "Save Task";
 
   addButton.onclick = () => saveEditedTask(id);
+  
 }
 
 function saveEditedTask(id) {
