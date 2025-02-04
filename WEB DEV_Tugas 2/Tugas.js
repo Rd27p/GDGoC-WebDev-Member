@@ -10,7 +10,7 @@ let notes = [
 
 const createNote = (heading, description, created_by) => {
     const newNote = {
-        id: notes.length ? notes[notes.length - 1].id + 1 : 1,
+        id: notes.length ? notes[notes.length - 1].id + 1 : 1, // ID auto increment
         heading,
         description,
         created_by,
