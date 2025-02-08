@@ -1,3 +1,3 @@
-# **Tugas GDGoC Telkom University**
+# **Member of GDGoC Telkom University**
 
-## Divisi Web Development
+## Web Development Division
